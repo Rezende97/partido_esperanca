@@ -1,6 +1,6 @@
-"use client";
+  "use client";
 
-import * as React from "react";
+  import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -15,7 +15,6 @@ import MenuItem from "@mui/material/MenuItem";
 import Stack from '@mui/material/Stack';
 
 import Image from "next/image";
-import logoEsperanca from '@/app/images/logoEsperanca.png'
 
 const pages = ["Partido", "História", "Estatuto", "Programa", "Código de Ética", "Diretório Nacional", "Diretório Estadual"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -40,7 +39,7 @@ const Header = () => {
 
   return (
     <>
-      <AppBar position="fixed" sx={{ background: '#ffffff', top: 0, left: 0, right: 0, zIndex: 1300 }}>
+      <AppBar position="static" sx={{ background: '#ffffff', top: 0, left: 0, right: 0, zIndex: 1300 }}>
         <Container maxWidth="xl">
           <Typography
             variant="h6"
@@ -165,11 +164,6 @@ const Header = () => {
           </Toolbar>
         </Container>
       </AppBar>
-
-      {/* Adicionando padding-top para evitar que o conteúdo fique por baixo do menu fixo */}
-      <Box sx={{ paddingTop: '120px' }}>
-        {/* Aqui vai o conteúdo da página */}
-      </Box>
     </>
   );
 };
