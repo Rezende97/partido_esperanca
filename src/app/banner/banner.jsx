@@ -6,7 +6,7 @@ import Image from "next/image";
 const Banner = () => {
     return (
         <Image
-            src='/images/banner.jpg'
+            src='/images/banner01.jpg'
             alt="Descrição da imagem"
             width={1920} 
             height={1080} 

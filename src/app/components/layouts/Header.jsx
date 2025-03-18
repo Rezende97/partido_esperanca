@@ -122,11 +122,11 @@ const Header = () => {
                     my: 2,
                     color: selectedPage === page ? "#A9C705" : "#1C2961",
                     display: "block",
-                    borderBottom: selectedPage === page ? "2px solid #A9C705" : "none",
+                    borderBottom: selectedPage === page ? "2px solid #A9C705" : "none"
                   }}
                 >
                   {page}
-                </Button>
+                </Button> 
               ))}
             </Box>
             <Stack direction="row" spacing={2}>

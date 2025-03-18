@@ -2,7 +2,8 @@
 
 import Header from "../components/layouts/Header";
 import Banner from "../banner/banner";
-import Footer from "../components/layouts/footer";
+import SobreNos from "../historia/page";
+// import Footer from "../components/layouts/footer";
 
 
 export default function HomePage(){
@@ -10,7 +11,8 @@ export default function HomePage(){
         <>
             <Header />
             <Banner />
-            <Footer />
+            <SobreNos />
+            {/* <Footer /> */}
         </>
     )
 }
